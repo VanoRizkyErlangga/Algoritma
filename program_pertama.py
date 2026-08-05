@@ -1,0 +1,12 @@
+print ("==============================================================")
+print ("==================Selamat Datang Di Python====================")
+print ("==============================================================")
+print ("==                                                          ==")   
+print ("==   -> Program Ini Di Buat Oleh :", "Vano Rizky Erlangga      ==")
+print ("==                                                          ==")   
+print ("==   -> Asal Sekolah :", "SMK Taruna Jaya Prawira              ==")
+print ("==                                                          ==")   
+print ("==   -> Tahun :", "2026","                                       ==")       
+print ("==                                                          ==")                    
+print ("==============================================================")
+
