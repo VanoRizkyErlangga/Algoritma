@@ -1,8 +1,8 @@
-user = "rizkypertamax"
-password = "mbahrizkyganteng"
+user = "pertamax"
+password = "mbahpertamaxganteng"
 
-username = input ("User : \n")
-password = input ("Pass : \n")
+username = input ("Username : \n")
+password = input ("Password : \n")
 
 if username == user and password == password:
     print ("horeeeee")
