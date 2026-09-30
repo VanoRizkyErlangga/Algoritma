@@ -22,7 +22,7 @@ print(type(mylist1))
 mylist2 = (("apple", "banana", "cherry"))
 print (mylist2)
 
-#Item dalam daftar diindeks dan Anda dapat mengaksesnya dengan merujuk pada nomor indeks:
+
 mylist3 = ["apple", "banana", "cherry"]
 print(mylist3[0])
 
@@ -32,8 +32,7 @@ print(mylist3[1])
 mylist3 = ["apple", "banana", "cherry"]
 print(mylist3[2])
 
-#Pengindeksan Negatif Pengindeksan negatif berarti mulai dari akhir.
-#-1 mengacu pada item terakhir, -2 mengacu pada item kedua terakhir, dan seterusnya.
+
 mylist3 = ["apple", "banana", "cherry"]
 print(mylist3[-0])
 
@@ -43,9 +42,7 @@ print(mylist3[-1])
 mylist3 = ["apple", "banana", "cherry"]
 print(mylist3[-2])
 
-#Rentang Indeks             
-#Anda dapat menentukan rentang indeks dengan menentukan di mana rentang tersebut dimulai dan di mana rentang tersebut berakhir.
-mylist3 =  ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+
 print(mylist3[2:5])
 
 
