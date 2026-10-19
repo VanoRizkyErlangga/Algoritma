@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Belajar Selectr CSS</title>
+	<link rel="stylesheet" href="b1.css">
+</head>
+<body>
+	<header>
+		<h2>Belajar Selector CSS</h2>
+		<nav aria-label="Navigasi utama">
+			<ul class="menu">
+				<li><a href="#artikel">Artikel</a></li>
+				<li><a href="#data">Data</a></li>
+				<li><a href="#kontak">Kontak</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="artikel">
+			<h2>Penggunaan CSS di Halaman Web</h2>
+			<p class="artikel">
+                Kecerdasan Buatan (AI) adalah cabang ilmu komputer yang berfokus pada penciptaan sistem cerdas yang mampu meniru kemampuan kognitif manusia, seperti belajar, berpikir, dan memecahkan masalah. Dengan memanfaatkan algoritma canggih dan analisis data dalam jumlah besar, AI memungkinkan mesin untuk mengenali pola, membuat prediksi, serta mengambil keputusan secara otonom tanpa intervensi manusia secara langsung. Teknologi ini telah berkembang pesat dan terintegrasi dalam berbagai aspek kehidupan sehari-hari, mulai dari asisten virtual pribadi hingga aplikasi kompleks di bidang kesehatan, keuangan, dan transportasi, yang bertujuan untuk meningkatkan efisiensi, akurasi, serta produktivitas dalam menyelesaikan tugas-tugas yang sebelumnya hanya dapat dilakukan oleh manusia.
+            </p>
+		</section>
+        <br>
+		<section id="data">
+			<h2>Contoh Data Siswa</h2>
+            <nav aria-label="Navigasi utama">
+			<table border="1" >
+				<thead>
+					<tr>
+						<th>No.</th>
+						<th>Nama</th>
+						<th>Kelas</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Andi</td>
+						<td>XI RPL 1</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Siti</td>
+						<td>XI RPL 1</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Budi</td>
+						<td>XI RPL 2</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Rina</td>
+						<td>XI RPL 2</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+		<section>
+			<h2>Materi yang Dipelajari</h2>
+			<ul>
+				<li>Selector elemen dan kelas</li>
+				<li>Pseudo-class seperti hover dan focus</li>
+				<li>Pseudo-element untuk dekorasi teks</li>
+			</ul>
+		</section>
+
+		<section id="kontak">
+			<h2>Formulir Kontak</h2>
+			<form action="#" method="get">
+				<p>
+					<label for="nama">Nama:</label>
+					<input type="text" id="nama" name="nama" placeholder="Masukkan nama">
+				</p>
+				<p>
+					<label for="pesan">Pesan:</label>
+					<input type="text" id="pesan" name="pesan" placeholder="Tulis pesan">
+				</p>
+				<button class="tombol" type="submit">Kirim Pesan</button>
+			</form>
+		</section>
+	</main>
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Informasi dan formulir pendaftaran siswa baru SMK Taruna Jaya Prawira Tuban."
+    />
+    <title>Pendaftaran Siswa Baru — SMK TJP Tuban</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="pendaftaranSiswa.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-container" aria-label="Navigasi utama">
+        <a class="nav-brand" href="landing-pages.html">
+          <img src="Asset/images-Photoroom.png" alt="" />
+          <span>SMK Taruna Jaya Prawira <strong>Tuban</strong></span>
+        </a>
+        <div class="nav-links">
+          <a href="landing-pages.html">Beranda</a>
+          <a href="#alur">Alur Pendaftaran</a>
+          <a class="nav-cta" href="#formulir"
+            >Isi Formulir <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Penerimaan Peserta Didik Baru</p>
+          <h1 id="hero-title">
+            Mulai langkahmu.<br /><em>Bangun masa depanmu.</em>
+          </h1>
+          <p class="hero-description">
+            Temukan keahlian yang kamu suka, belajar langsung lewat praktik, dan
+            siapkan diri untuk dunia kerja bersama SMK TJP Tuban.
+          </p>
+          <a class="button button-primary" href="#formulir"
+            >Daftar sekarang <span aria-hidden="true">↓</span></a
+          >
+          <p class="hero-note">
+            Enam program keahlian. Banyak jalan untuk berkembang.
+          </p>
+        </div>
+        <div class="hero-photo">
+          <img
+            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1400&q=85"
+            alt="Para siswa merayakan kelulusan bersama"
+          />
+          <div class="photo-caption">
+            <span class="caption-mark" aria-hidden="true">TJP</span>
+            <span
+              >Belajar hari ini,<br /><strong
+                >siap berkarya esok hari.</strong
+              ></span
+            >
+          </div>
+        </div>
+        <div class="hero-index" aria-hidden="true">01 / 03</div>
+      </section>
+
+      <section class="steps-section" id="alur" aria-labelledby="steps-title">
+        <div class="section-heading">
+          <p class="eyebrow"><span></span> Proses yang mudah</p>
+          <h2 id="steps-title">Tiga langkah menuju <em>kelas baru.</em></h2>
+        </div>
+        <ol class="steps-list">
+          <li>
+            <span class="step-number">01</span>
+            <div>
+              <h3>Isi formulir</h3>
+              <p>Lengkapi data calon siswa dan pilih program keahlian.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">02</span>
+            <div>
+              <h3>Siapkan dokumen</h3>
+              <p>
+                Siapkan berkas identitas dan berkas sekolah untuk proses
+                berikutnya.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">03</span>
+            <div>
+              <h3>Konfirmasi pendaftaran</h3>
+              <p>
+                Tim sekolah akan membantu memberi informasi tahap selanjutnya.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section
+        class="registration-section"
+        id="formulir"
+        aria-labelledby="form-title"
+      >
+        <div class="registration-intro">
+          <p class="eyebrow"><span></span> Data calon siswa</p>
+          <h2 id="form-title">Satu formulir,<br /><em>langkah pertama.</em></h2>
+          <p>
+            Isi data dengan benar agar sekolah dapat menghubungimu untuk
+            informasi pendaftaran selanjutnya.
+          </p>
+          <div class="info-rule"></div>
+          <h3>Program keahlian</h3>
+          <ul class="program-list">
+            <li>Rekayasa Perangkat Lunak <span>RPL</span></li>
+            <li>Teknik Komputer dan Jaringan <span>TKJ</span></li>
+            <li>Teknik Instalasi Tenaga Listrik <span>TITL</span></li>
+            <li>Teknik Kendaraan Ringan <span>TKR</span></li>
+            <li>Teknik Permesinan <span>TPM</span></li>
+            <li>Teknik Pengelasan <span>LAS</span></li>
+          </ul>
+          <a class="contact-link" href="mailto:smktjptuban@gmail.com"
+            >Ada pertanyaan? Hubungi sekolah
+            <span aria-hidden="true">↗</span></a
+          >
+        </div>
+
+        <form
+          class="registration-form"
+          action="mailto:smktjptuban@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="form-heading">
+            <span>FORMULIR PENDAFTARAN</span>
+            <span class="required-note"><b>*</b> wajib diisi</span>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-field field-full">
+              <label for="nama">Nama lengkap calon siswa <b>*</b></label>
+              <input
+                id="nama"
+                name="Nama calon siswa"
+                type="text"
+                autocomplete="name"
+                placeholder="Sesuai dokumen identitas"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="nisn">NISN <b>*</b></label>
+              <input
+                id="nisn"
+                name="NISN"
+                type="text"
+                inputmode="numeric"
+                pattern="[0-9]{10}"
+                maxlength="10"
+                placeholder="10 digit NISN"
+                title="NISN terdiri dari 10 angka"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="telepon">Nomor WhatsApp <b>*</b></label>
+              <input
+                id="telepon"
+                name="Nomor WhatsApp"
+                type="tel"
+                autocomplete="tel"
+                placeholder="08xxxxxxxxxx"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="tempat-lahir">Tempat lahir <b>*</b></label>
+              <input
+                id="tempat-lahir"
+                name="Tempat lahir"
+                type="text"
+                autocomplete="off"
+                placeholder="Kota / kabupaten"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="tanggal-lahir">Tanggal lahir <b>*</b></label>
+              <input
+                id="tanggal-lahir"
+                name="Tanggal lahir"
+                type="date"
+                required
+              />
+            </div>
+            <fieldset class="form-field field-full gender-field">
+              <legend>Jenis kelamin <b>*</b></legend>
+              <label class="radio-option"
+                ><input
+                  type="radio"
+                  name="Jenis kelamin"
+                  value="Laki-laki"
+                  required
+                /><span>Laki-laki</span></label
+              >
+              <label class="radio-option"
+                ><input
+                  type="radio"
+                  name="Jenis kelamin"
+                  value="Perempuan"
+                /><span>Perempuan</span></label
+              >
+            </fieldset>
+            <div class="form-field field-full">
+              <label for="asal-sekolah">Asal sekolah <b>*</b></label>
+              <input
+                id="asal-sekolah"
+                name="Asal sekolah"
+                type="text"
+                autocomplete="organization"
+                placeholder="Nama SMP / MTs"
+                required
+              />
+            </div>
+            <div class="form-field field-full">
+              <label for="jurusan">Program keahlian pilihan <b>*</b></label>
+              <select id="jurusan" name="Program keahlian pilihan" required>
+                <option value="" disabled selected>
+                  Pilih program keahlian
+                </option>
+                <option>Rekayasa Perangkat Lunak (RPL)</option>
+                <option>Teknik Komputer dan Jaringan (TKJ)</option>
+                <option>Teknik Instalasi Tenaga Listrik (TITL)</option>
+                <option>Teknik Kendaraan Ringan (TKR)</option>
+                <option>Teknik Permesinan (TPM)</option>
+                <option>Teknik Pengelasan</option>
+              </select>
+            </div>
+            <div class="form-field field-full">
+              <label for="alamat">Alamat tempat tinggal <b>*</b></label>
+              <textarea
+                id="alamat"
+                name="Alamat"
+                rows="3"
+                autocomplete="street-address"
+                placeholder="Jalan, desa/kelurahan, kecamatan"
+                required
+              ></textarea>
+            </div>
+            <div class="form-field field-full">
+              <label for="wali">Nama orang tua / wali <b>*</b></label>
+              <input
+                id="wali"
+                name="Nama orang tua atau wali"
+                type="text"
+                autocomplete="off"
+                placeholder="Nama lengkap orang tua / wali"
+                required
+              />
+            </div>
+          </div>
+
+          <label class="consent-option">
+            <input
+              type="checkbox"
+              name="Persetujuan data"
+              value="Disetujui"
+              required
+            />
+            <span
+              >Saya menyatakan data yang diisi benar dan dapat digunakan untuk
+              keperluan informasi pendaftaran.</span
+            >
+          </label>
+          <button class="button button-submit" type="submit">
+            Kirim data pendaftaran <span aria-hidden="true">↗</span>
+          </button>
+          <p class="form-footnote">
+            Pengiriman formulir akan membuka aplikasi email pada perangkatmu.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-brand" href="landing-pages.html"
+        >SMK TJP <span>TUBAN</span></a
+      >
+      <p>Jl. Dr. Wahidin Sudirohusodo, Sidorejo, Tuban, Jawa Timur</p>
+      <a href="mailto:smktjptuban@gmail.com">smktjptuban@gmail.com</a>
+      <a class="back-top" href="#top" aria-label="Kembali ke atas">↑</a>
+    </footer>
+  </body>
+</html>
